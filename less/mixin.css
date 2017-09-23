@@ -1,0 +1,32 @@
+/*mixin 混入*/
+/*css选择器*/
+/*.w50{
+  width: 50px;
+  display: block;
+}
+.w60{
+  width: 60px;
+  display: block;
+}
+.f_left{
+  float: left;
+}*/
+/*css选择器混入类混入*/
+/*.w50f_left{
+  .w50();
+  .f_left();
+}
+.w60f_left{
+  .w60();
+  .f_left();
+}*/
+
+.w50 {
+  width: 50px;
+  display: block;
+}
+/* 函数混入  */
+.w70 {
+  width: 70px;
+  display: block;
+}
